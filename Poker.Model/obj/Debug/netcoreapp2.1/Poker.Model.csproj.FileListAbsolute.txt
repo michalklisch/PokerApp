@@ -1,0 +1,9 @@
+C:\Users\Michał\source\repos\PokerApp\Poker.Model\bin\Debug\netcoreapp2.1\Poker.Model.deps.json
+C:\Users\Michał\source\repos\PokerApp\Poker.Model\bin\Debug\netcoreapp2.1\Poker.Model.dll
+C:\Users\Michał\source\repos\PokerApp\Poker.Model\bin\Debug\netcoreapp2.1\Poker.Model.pdb
+C:\Users\Michał\source\repos\PokerApp\Poker.Model\obj\Debug\netcoreapp2.1\Poker.Model.csprojAssemblyReference.cache
+C:\Users\Michał\source\repos\PokerApp\Poker.Model\obj\Debug\netcoreapp2.1\Poker.Model.csproj.CoreCompileInputs.cache
+C:\Users\Michał\source\repos\PokerApp\Poker.Model\obj\Debug\netcoreapp2.1\Poker.Model.AssemblyInfoInputs.cache
+C:\Users\Michał\source\repos\PokerApp\Poker.Model\obj\Debug\netcoreapp2.1\Poker.Model.AssemblyInfo.cs
+C:\Users\Michał\source\repos\PokerApp\Poker.Model\obj\Debug\netcoreapp2.1\Poker.Model.dll
+C:\Users\Michał\source\repos\PokerApp\Poker.Model\obj\Debug\netcoreapp2.1\Poker.Model.pdb
