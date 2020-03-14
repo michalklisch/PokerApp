@@ -6,14 +6,13 @@ using System.Text;
 
 namespace Poker.Engine.Actions
 {
-    public class AddPlayerAction : IGameAction
+    public class RemovePlayerAction : IGameAction
     {
-        private Player playerToAdd;
-        public AddPlayerAction(Player player)
+        private Player playerToRemove;
+        public RemovePlayerAction(Player player)
         {
-            playerToAdd = player;
+            playerToRemove = player;
         }
-
         public bool CanDoAction(IGame game, out string whyNot)
         {
             whyNot = "";
@@ -22,7 +21,7 @@ namespace Poker.Engine.Actions
                 whyNot = "Game is already running";
                 return false;
             }
-            if (playerToAdd is null)
+            if (playerToRemove is null)
             {
                 whyNot = "Player not specified";
                 return false;
@@ -32,7 +31,7 @@ namespace Poker.Engine.Actions
 
         public bool PerformAction(IGame game)
         {
-            game.Players.Add(playerToAdd);
+            game.Players.Remove(playerToRemove);
             return true;
         }
     }

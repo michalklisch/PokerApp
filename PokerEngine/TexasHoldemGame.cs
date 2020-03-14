@@ -21,11 +21,6 @@ namespace Poker.Engine
             Table = new List<Card>();
         }
 
-        public void Start()
-        {
-            var d = new Deck();
-        }
-
         public void AddPlayer(Player p)
         {
             //check state
@@ -38,13 +33,7 @@ namespace Poker.Engine
         public void Deal()
         {
             //check state
-            for (int i = 0; i < 2; i++)
-            {
-                foreach (var p in Players)
-                {
-                    p.Cards.Add(Deck.RemoveTopCard());
-                }
-            }
+            
         }
 
         public void NextRound()
