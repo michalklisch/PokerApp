@@ -10,5 +10,7 @@ namespace Poker.Engine
         public Guid Id { get; private set; }
         public List<Card> Cards;
         public int Money { get; set; }
+        public bool HasTurn { get; set; }
+        public bool IsDealer { get; set; }
     }
 }
