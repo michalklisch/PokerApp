@@ -11,8 +11,7 @@ namespace Poker.Engine
         public Guid Id { get; private set; }
         public List<Player> Players { get; set;}
         public Deck Deck { get; set; }
-        public List<Card> Table { get; set; }
-        
+        public List<Card> Table { get; set; }        
         public eGameState GameState { get; set; }
 
         public TexasHoldemGame()
