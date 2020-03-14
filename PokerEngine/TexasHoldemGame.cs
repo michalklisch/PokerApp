@@ -1,24 +1,19 @@
-﻿using Poker.Model;
+﻿using Poker.Engine.Interfaces;
+using Poker.Model;
+using Poker.Model.Enums;
 using System;
 using System.Collections.Generic;
 
 namespace Poker.Engine
 {
-    public interface IGame
-    {
-        Guid Id { get; }
-        List<Player> Players { get; set; }
-        List<Card> Deck { get; set; }
-        List<Card> Table { get; set; }
-    }
-
     public class TexasHoldemGame : IGame
     {
         public Guid Id { get; private set; }
         public List<Player> Players { get; set;}
         public Deck Deck { get; set; }
         public List<Card> Table { get; set; }
-        //state       
+        
+        public eGameState GameState { get; set; }
 
         public TexasHoldemGame()
         {
